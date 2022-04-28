@@ -8,4 +8,54 @@
     font-family: "Spoqa Han Sans Neo", "Sans-serif";
   }
   
+  .inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    padding: 0rem 2rem; 
+    overflow: hidden; 
+  }
   
+  header {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .head-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head-container .head-git {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .head-container .head-git a:hover {
+    color: #2186c4;
+    cursor: pointer;
+  }
+
+
+  .head-container .head-mail {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .head-container .head-mail a:hover {
+    color: #2186c4;
+    cursor: pointer;
+  }
+
+  .skill-icon {
+    font-size: 2.5rem;
+    margin: 0 10px;
+  }
