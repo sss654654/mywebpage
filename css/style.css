@@ -32,7 +32,53 @@
     justify-content: space-around;
     padding: 0 100px;
   }
-  
+
+  .profile-message{
+    text-align: center;
+    color : white;
+  }
+
+  .image{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10pt;
+  }
+
+  .icon{
+    width : 40px;
+    height: 40px;
+  }
+
+  .chat-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .qutate-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo1{
+    width: 100px;
+    height: 100px;
+    top: 450px;
+    left: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+  }
+
   body {
     margin: 0 auto;
     color: #3f464d;
