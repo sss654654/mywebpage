@@ -169,7 +169,7 @@
   
   .main {
     height: 470px; /* 화면 이미지 고정 */
-    background-image: url("https://previews.123rf.com/images/pixelsaway/pixelsaway1502/pixelsaway150200010/36206858-i-hear-i-know-i-see-i-remember-i-do-i-understand-confucius-quote-on-a-slate-blackboard-against-red-b.jpg");
+    background-image: url("https://wallpapers.com/images/high/japan-pink-aesthetic-pixel-art-ap6kcu0z2bjhlqol.jpg");
     background-size: cover;
     background-position: center 40%; /* 이미지 위치를 살짝 위로 올리기 위한 position 설정 */
     background-repeat: no-repeat;
@@ -309,7 +309,6 @@
   cursor: pointer;
   color: rgb(47, 48, 89);
 }
-
 .slide-next {
   font-size: 2rem;
   cursor: pointer;
@@ -318,12 +317,12 @@
 .slide-prev-hover:hover {
     transition: transform 0.5s;
     transform: translateX(-2px);
-  }
-  
-  .slide-next-hover:hover {
-    transition: transform 0.5s;
-    transform: translateX(2px);
-  }
+}
+.slide-next-hover:hover {
+  transition: transform 0.5s;
+  transform: translateX(2px);
+}
+
 .arrow-container {
   display: flex;
 }
