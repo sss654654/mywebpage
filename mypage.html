@@ -405,13 +405,7 @@ int main(int argc, char **argv)
                                                 inet_ntoa(client_addr.sin_addr),
                                                 client_addr.sin_port,
                                                   buf);
-                                printf("Translated ASCII : ");
-                                for(int i=0;i<strlen(buf)-1; i++)
-                                {
-                                        printf("%d",buf[i]);
-
-                                }
-                                printf("\n");
+                               
                                 write(client_fd, buf, strlen(buf));
                                 memset(buf, 0x00, MAXLINE);
                         }
@@ -482,7 +476,14 @@ int main(int argc, char **argv)
       perror("read error : ");
       return 1;
   }
-  printf("read : %s", buf);
+  printf("Translated ASCII : ");
+  for(int i=0;i<strlen(buf)-1; i++)
+  {
+          printf("%d",buf[i]);
+
+  }
+  printf("\n");
+
   close(server_sockfd);
   return 0;
 }
