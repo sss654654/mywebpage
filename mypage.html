@@ -513,13 +513,13 @@ int main(int argc, char **argv)
                 <img src="img/소켓2.png" class="class-image-sizeup" />
                 <div class="class-container">
                   <div class="class-skill">
-                    <div class="class-type">2. 클라이언트가 서버에게 파일을 전달하여 Read or Write</div>
+                    <div class="class-type">2. 서버에 파일을 생성 후 클라이언트가 해당 파일을 요청하면 읽어오거나 수정이 가능하도록 하는 프로그램</div>
                   </div>
                   <div class="class-desc">
                     <div class="class-title">cal_server.c</div>
                     <div class="class-detail">
                       <pre>
-                        #include <sys/socket.h>   /* 소켓 관련 함수 */
+#include <sys/socket.h>   /* 소켓 관련 함수 */
 #include <arpa/inet.h>    /* 소켓 지원을 위한 각종 함수 */
 #include <unistd.h>       /* 각종 시스템 함수 */
 #include <stdlib.h>       /* exit 함수를 위한 헤더 파일 */
