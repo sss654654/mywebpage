@@ -10,7 +10,7 @@
   }
 
   .pink-box{
-    height: 2000px;
+    height: 500px;
     background-color: pink;
     display: flex;
     flex-direction: column;
