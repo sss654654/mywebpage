@@ -168,7 +168,7 @@
   }
   
   .main {
-    height: 650px; /* 화면 이미지 고정 */
+    height: 1000px; /* 화면 이미지 고정 */
     background-image: url("https://wallpapers.com/images/high/japan-pink-aesthetic-pixel-art-ap6kcu0z2bjhlqol.jpg");
     background-size: cover;
     background-position: center 40%; /* 이미지 위치를 살짝 위로 올리기 위한 position 설정 */
@@ -204,7 +204,7 @@
   }
   
   .message {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: normal;
     color: #fff;
     line-height: 2rem;
